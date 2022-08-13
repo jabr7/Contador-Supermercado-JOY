@@ -6,4 +6,8 @@ Es un sistema que muestra el numero de la persona que va en pantalla, el logo de
 
 Funciona con una base de datos MySQL y un segundo programa que se conecta a esa BDD para customizar lo que se desee del programa como el sonido, las imagenes, los colores del texto, el propio texto, el tiempo que se muestra la imagen o el numero, etc..
 
+Interfaz:
+![plot](Ejemplo/Deployed.jpeg)
+
+
 Programado por Joaquin Bonifacino
