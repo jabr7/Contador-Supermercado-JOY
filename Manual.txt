@@ -1,0 +1,81 @@
+Programador: Joaquin Bonifacino
+Version: 1.5 07/07/2021
+
+
+El sistema consta de 2 programas:
+1) JOYContador: Es el programa para mostrar el numero en pantalla
+2) JOYConfiguracion: Es el programa para cambiar la configuracion del programa JOYContador
+
+
+
+Para utilizar el sistema se debe abrir JOYContador
+Controles: 
+Los controles son totalmente customizables, si se desea modificarlos se hara en el programa JOYConfiguracion
+ENTER: Sube un numero, lo hace sonar y muestra el numero un tiempo determinado
+Tecla de +: Sube el numero sin mostrarlo por pantalla y sin sonido
+Tecla de -: Baja el numero sin mostrarlo por pantalla y sin sonido 
+Para salir del programa aprete ESC
+
+
+Si queremos modificar algun comportamiento del programa JOYContador solo debemos
+abrir el programa JOYConfiguracion, modificar el atributo deseado y darle a "Guardar"
+
+Lista de atributos que se pueden modificar a gusto del cliente y su significado correspondiente:
+
+
+Contador:
+Por si queremos elegir el numero en el que se encontrara el contador antes de abrir
+el programa JOYContador
+
+Tiempo de Numero:
+Es el tiempo del numero en pantalla grande
+Se ingresa la cantidad de segundos que se muestra el numero en la pantalla grande al 
+apretar la tecla de ascenso
+
+Tecla de Ascenso:
+Es la tecla con la que se sube el numero y se muestra, puede ser cualquier numero, letra 
+o si se desea que sea el enter se debe ingresar \n (El valor predeterminado es la tecla ENTER)
+
+Tecla de Descenso:
+Es la tecla con la que se baja el numero sin mostrarlo en pantalla grande, puede ser cualquier numero, letra 
+o si se desea que sea el enter se debe ingresar \n (El valor predeterminado es la tecla -)
+
+Tecla de Reset:
+FUNCION QUITADA POR ORDEN DEL CLIENTE
+
+Tipo de Letra:
+Es la direccion (path) donde se tiene el .ttf de la letra
+Si se desea cambiar el tipo de letra se apreta en "Explorar" y se elije el archivo .ttf del tipo de letra
+
+Tamaño de Letra:
+Es el valor del tamaño de la letra en pixeles a ser mostrado en el programa 
+
+Color de la Letra:
+Es el valor hexadecimal del color de la letra
+Si se desea modificar se apreta en "Elegir" y se elije el color que se desee
+
+Tiempo de Promocion:
+Valor en segundos que se muestra la promocion antes de pasar a la siguiente
+
+Cantidad de Promociones:
+Es el numero de imagenes que sea desean promocionar.
+Se pone el numero de imagenes a mostrar y luego se las debe enumerar del 1 al numero de cantidad
+de promociones que halla, ej.:
+El programa adapta todas las resoluciones desde 1080 hacia abajo, pero las ideales son 1280 x 960
+Por ejemplo, si hay 6 imagenes se deberan llamar: 1.png,2.png,3.png,4.png,5.png,6.png en el 
+orden que querramos mostrarlas.
+
+En el caso de que desee por ejemplo mostrar solo las primeras 3 puede ingresar "3" en el campo
+y no quitar los archivos.
+
+Color de Fondo:
+Valor en hexadecimal del color de fondo a poner
+
+Texto del Cartel:
+Texto que se va a mostrar en el cartel entre el logo y el numero (El predeterminado es "Carniceria")
+
+Una vez modifique cualquier valor solo debe apretar "Guardar" abajo del todo
+
+
+
+
